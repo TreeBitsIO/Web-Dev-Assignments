@@ -40,7 +40,7 @@
 * If you have suggestions for adding or removing projects, feel free to open an issue.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Pull Request Pattern](https://github.com/TreeBitsIO/Web-Dev-Assignments/PATTERN.md) before raising a PR.
+* Please also read through the [Pull Request Pattern](../../blob/main/PATTERN.md) before raising a PR.
 
 ## Creating A Pull Request
 
@@ -48,7 +48,7 @@
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request with proper [Pattern](https://github.com/TreeBitsIO/Web-Dev-Assignments/PATTERN.md)
+5. Open a Pull Request with proper [Pattern](../../blob/main/PATTERN.md)
 
 ## Learners
 
