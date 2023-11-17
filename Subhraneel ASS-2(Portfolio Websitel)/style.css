@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500;1,800&display=swap');
+*{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+    width: auto;
+   
+}
+
+
+.mainbox{
+    box-shadow: 10px 6px 27px;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 1.4rem;
+}
+
+.mainimg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 6px solid lightgreen;
+    padding: 4.6px;
+    cursor: pointer;
+}
+
+.mainimg{
+    border-radius: 100%;
+}
+
+
+h3{
+    font-size: larger;
+}
+
+.p1{
+    font-weight: lighter;
+    color: rgb(94, 81, 81);
+}
+
+.icons1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+   
+}
+
+
+.footer1{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.subscribe{
+    color: white;
+    border-radius: 21px;
+    cursor: pointer;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe:hover{
+    transition:1s;
+    background-color:lightgreen;
+}
+
+
+.message{
+    color: white;
+    border-radius: 21px;
+    cursor: pointer;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message:hover{
+    transition:1s;
+    background-color: lightgreen;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    font-weight: bold;
+}
+
+.a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.b{
+    color: lightblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.c{
+    color: rgb(233, 45, 76);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.d{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
