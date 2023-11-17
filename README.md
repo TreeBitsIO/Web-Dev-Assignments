@@ -86,7 +86,7 @@
         <a href="https://github.com/Rupam-Mondal">
             <img src=https://avatars.githubusercontent.com/u/126224914?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arpit Ghura/>
             <br />
-            <sub style="font-size:14px"><b>Subhraneel Goswami</b></sub>
+            <sub style="font-size:14px"><b>Rupam Mondal</b></sub>
         </a>
     </td>
 </tr>
