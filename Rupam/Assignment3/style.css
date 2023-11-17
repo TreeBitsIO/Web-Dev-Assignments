@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.card-top-bg{
+    background-color: rgb(106, 106, 248);
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.image{
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+    border-bottom: 5px solid rgb(107, 107, 244);
+    position: absolute;
+    z-index: 2;
+    left: calc(50% - 62.5px);
+    top: calc(20% - 62.5px);
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.lab{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-weight: 400;
+}
+.About{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 2%;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 9%;
+}
+.buttons{
+    width: 100%;
+    height: 9%;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+.button{
+    height: 100%;
+    background-color: rgb(107, 107, 244);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 20px;
+}
+.footer-section{
+    width: 100%;
+    height: 8%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    font-size: 1.2rem;
+}
+.share{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
