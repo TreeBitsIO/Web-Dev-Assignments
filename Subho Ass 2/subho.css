@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 70vh;
+    width: 50vh;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.dp{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 23%;
+    left: 50%;
+}
+.dp img{
+    height: 200px;
+    border-radius: 50%;
+    /* padding: 5px ; */
+    border: 6px solid white;
+    position: relative;
+}
+img{
+    cursor: pointer;
+}
+.name-bar{
+    position: absolute;
+    transform: translate();
+    top: 40%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 370px;
+}
+.detail-bar{
+    position: absolute;
+    transform: translate();
+    top: 47%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 370px;
+}
+.logo-bar{
+    position: absolute;
+    transform: translate();
+    top: 55%;
+    left: 12%;
+    display: flex;
+    
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    justify-content: space-evenly;
+}
+.logo-bar i{
+    font-size: 30px;
+}
+.div-button{
+    position: absolute;
+    transform: translate();
+    top: 70%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 370px;
+    justify-content: space-evenly;
+}
+.subscribe-button{
+    height: 50px;
+    width: 140px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-button{
+    height: 50px;
+    width: 140px;
+    background-color: lightpink;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    position: absolute;
+    transform: translate();
+    top: 83%;
+    left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 370px;
+}
+.footer i{
+    font-size: 25px;
+}
+.love{
+    color: red;
+}
+.comment{
+    color: blue;
+}
+.share{
+    color: lightgreen;
+}
+.fb{
+    color: blue;
+}
+.tw{
+    color: #00ACEE;
+}
+.ig{
+    color: violet;
+}
+.gh{
+    color: black;
+}
+.header-color{
+    position: relative;
+    height: 24.4vh;
+    width: 49.6vh;
+    background-color: bisque;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+h2{
+    color: orange;
+    text-shadow: 2px 2px red;
+}
+.subscribe-button b{
+    color: darkblue;
+
+}
+.message-button b{
+    color: rgb(255, 0, 55);
+}
+.detail-bar h3{
+    color: rgb(27, 219, 27);  
+}
