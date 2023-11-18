@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid red; */
+}
+
+.main{
+    height: 100vh;
+    /* width: 100vw; */
+    /* background-color: gray; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    /* padding: 10vh; */
+    min-height: 40vh;
+    min-width: 15vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position:  relative;
+    box-shadow: 1px 1px 5px 5px gray;
+}
+
+#upper{
+    width: 100%;
+    /* min-height: 20% */
+    padding: 20%;
+    background-color: rgb(83, 122, 251) ;
+}
+
+#name{
+    padding: 3vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    /* background-color: lightgreen;   */
+    /* color: white; */
+}
+
+#name h1{
+    font-weight: lighter;
+    /* font-size: large; */
+}
+
+#profile{
+    position: absolute;
+    width: 12vh;
+    height: 12vh;
+    /* padding: 10px; */
+    background-color: #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1000;
+    top: 10.5%;
+    border: 5px solid rgb(83, 122, 251) ;
+    
+}
+
+#profile img{
+    /* height: 100%; */
+    width: 100%;
+    /* border-radius: 100%; */
+}
+
+#logo{
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    width: 100%;
+    padding: 1vh;
+}
+
+#logo img{
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    width: 100%;
+    padding: 1vh;
+    /* background-color: lightskyblue; */
+}
+
+#button div{
+    /* padding: 20%; */
+    color: white;
+    font-weight: 500;
+    background-color: rgb(83, 122, 251) ;
+    padding: 0.5vh 1.5vh;
+    border-radius: 10px;
+}
+
+#button div:hover{
+    cursor: pointer;
+}
+
+#likes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    padding: 2vh;
+}
+
+#likes div{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    border-right:1px solid gray ;
+    padding: 0 10px;
+}
