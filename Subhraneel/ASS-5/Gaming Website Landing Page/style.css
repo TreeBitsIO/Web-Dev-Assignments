@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg1.jpg");
+    height: 50%;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+
+.mainbox{
+    height: 100%;
+    width: 100%;
+}
+
+.headerbox{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    background-color: rgba(12, 11, 11, 0.5);
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+}
+.box1 a{
+    text-decoration: none;
+    color: white;
+}
+.box1 a:hover{
+    transition: 1s;
+    color: gray;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+}
+.box2 a{
+    text-decoration: none;
+    color: white;
+}
+.box2 a:hover{
+    transition: 1s;
+    color: gray;
+}
+
+.game-icon{
+    color: #fff;
+    font-size: 20px;
+}
+
+.middle{
+    height: 60%;
+    width: 90%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    background-color: rgba(12, 11, 11, 0.5);
+}
+
+.middle h2{
+    padding: 15px;
+    color: #fff;
+    text-shadow: 1.5px 1.5px #000;
+}
+
+.middle p{
+    color: #fff;
+}
+
+.readmore{
+    background-color: rgb(245, 6, 6);
+    color: gray;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readmore:hover{
+    transition: 1s;
+    background-color: rgb(179, 66, 66);
+}
+
+.gamebox{
+    background-color: #000;
+    background-color: rgba(117, 52, 52, 0.5);
+    height: auto;
+    width: 80%;
+    margin-top: 40%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 2rem;
+    perspective: 250px;
+}
+
+.gamebox1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+ .imgs{
+    height: 250px;
+    width: 250px;
+    transition: 1s;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    cursor: pointer;
+}
+.imgs:hover {
+  transform: translate3d(0px,20px,20px);  
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  }
+
+.gamebox2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
