@@ -7,6 +7,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    background-color: rgb(19, 20, 25);
 }
 p{
     margin: 0;
@@ -33,9 +34,11 @@ p{
     height: 100%;
     width: 30.8%;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     font-size: 1rem;
+}
+.hamburger{
+    display: none;
 }
 .Eth-button{
     color: white;
@@ -46,7 +49,8 @@ p{
     align-items: center;
     background-color: rgb(36, 35, 35);
     border-radius: 15px;
-    cursor: pointer
+    cursor: pointer;
+    margin-left: 12%;
 }
 .Connect-btn{
     background-color: rgb(52, 183, 183);
@@ -88,6 +92,7 @@ p{
     height: 75%;
     width: 100vw;
     display: flex;
+    background-color: rgb(19, 20, 25);
 }
 .main-section1{
     height: 100%;
@@ -99,7 +104,12 @@ p{
 .main-section2{
     height: 100%;
     width: 50%;
-    background-color: aqua;
+    background-color: rgb(19, 20, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
 }
 .main-sub-section1-1{
     width: 100%;
@@ -118,4 +128,28 @@ p{
     width: 80%;
     margin-right: 5%;
     margin-bottom: 3%;
+}
+.main-section2-sub-1{
+    height: 10%;
+    width: 85%;
+    background-color: rgb(19, 20, 25);
+    display: flex;
+}
+.main-section2-sub-2{
+    background-color: #282525;
+    width: 85%;
+    height: 34%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-section2-sub-3 {
+    background-color: #282525;
+    width: 85%;
+    height: 45%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

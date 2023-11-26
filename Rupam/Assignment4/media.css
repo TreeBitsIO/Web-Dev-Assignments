@@ -1,0 +1,108 @@
+@media only screen and (min-width: 430px) and (max-width: 1024px) {
+    .nav {
+        display: flex;
+        width: 100vw;
+        height: 80px;
+    }
+
+    .nav-sections1 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .logo{
+        height: 70%;
+        width: 40%;
+    }
+
+    .nav-section2 {
+        display: none;
+    }
+
+    .nav-sections3 {
+        height: 100%;
+        width: 50%;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    .mid-content {
+        display: none;
+    }
+    .Connect-btn {
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        margin-right: 5%;
+        margin-left: 6%;
+    }
+    .Eth-button {
+        width: 40%;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 430px) {
+    .nav {
+        display: flex;
+        width: 100vw;
+        height: 80px;
+    }
+
+    .nav-sections1 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        height: 70%;
+        width: 40%;
+    }
+
+    .nav-section2 {
+        display: none;
+    }
+
+    .nav-sections3 {
+        height: 100%;
+        width: 50%;
+        font-size: 1.1rem;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mid-content {
+        display: none;
+    }
+    .Eth-button{
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    .Connect-btn{
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        margin-right: 7%;
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+}

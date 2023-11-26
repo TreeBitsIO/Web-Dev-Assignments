@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,21 +31,61 @@
             <div class="nav-sections3">
                 <div class="Eth-button"><i class="fa-brands fa-ethereum fa-lg" style="margin-right: 4%;"></i>Ethereum</div>
                 <div class="Connect-btn"><i class="fa-solid fa-wallet fa-lg" style="margin-right: 4%;"></i>Connect Wallet</div>
-                <div></div>
+                <div class="hamburger"><i class="fa-solid fa-burger fa-lg"></i></div>
             </div>
         </div>
         <div class="main">
             <div class="main-section1">
                 <div class="main-sub-section1-1">
-                    <div style="color: white; height: 50%; width: 100%; display: flex; align-items: center;"><p style="margin-left: 20%; font-size: 1.2rem;">ETH/LINK</p></div>
-                    <div style="color: white; height: 50%; width: 100%; display: flex; justify-content: space-between; align-items: center;">
+                    <div style="color: white; height: 50%; width: 100%; display: flex; align-items: center;">
+                        <p style="margin-left: 20%; font-size: 1.2rem;">ETH/LINK</p>
+                    </div>
+                    <div
+                        style="color: white; height: 50%; width: 100%; display: flex; justify-content: space-between; align-items: center;">
                         <p style="margin-left: 20%; font-size: 2rem; color: wheat; letter-spacing: 3px;">254.596</p>
-                        <div style="border: 1px solid white; width: 12%; height: 50%; display: flex; justify-content: center; align-items: center; margin-right: 2%; cursor: pointer;"><p>1 hour</p><i class="fa-solid fa-caret-down" style="margin-left: 5%;"></i></div>
+                        <div
+                            style="border: 1px solid white; width: 12%; height: 50%; display: flex; justify-content: center; align-items: center; margin-right: 2%; cursor: pointer;">
+                            <p>1 hour</p><i class="fa-solid fa-caret-down" style="margin-left: 5%;"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="main-sub-section1-2"><img src="graph.png" alt="" class="graph"></div>
             </div>
-            <div class="main-section2"></div>
+            <div class="main-section2">
+                <div class="main-section2-sub-1">
+                    <div style="height: 100%; width: 15%; font-size: 1.3rem; color: white; display: flex; justify-content: center; align-items: center; border-bottom: 2px solid orange; cursor: pointer;"><p>Swap</p></div>
+                    <div style="height: 100%; width: 15%; font-size: 1.2rem; color: rgb(82, 75, 75); display: flex; justify-content: center; align-items: center; cursor: pointer;"><p>Limit</p></div>
+                </div>
+                <div class="main-section2-sub-2">
+                    <div style="height: 10%; width: calc(100% - 10px); color: white; margin-left: 20px;">You Sell</div>
+                    <div style="height: 30%; width: calc(100% - 20px); display: flex; justify-content: space-between; margin-left: 10px; font-size: 1.3rem; align-items: center;">
+                        <div style="height: 100%; display: flex; align-items: center; color: white; width: 20%;">
+                            <div style="background-color: rgb(187, 87, 187); width: 50%; height: 65%; display: flex; justify-content: center; align-items: center; border-radius: 8px; margin: 10px;"><i class="fa-brands fa-ethereum fa-lg"></i></div>
+                            <div style="display: flex;">ETH <i class="fa-solid fa-caret-down" style="margin-left: 10%;"></i></div>
+                        </div>
+                        <div style="height: 100%; display: flex; align-items: center; color: white; margin-right: 10px; font-size: 2rem;">32.5</div>
+                    </div>
+                    <div style="margin-left: 20px; color: rgb(140, 130, 130); display: flex; justify-content: space-between;"><div>Ethereum</div> <div style="margin-right: 20px;">-$50 542.2</div></div>
+                </div>
+                <div class="main-section2-sub-3">
+                    <div style="height: 10%; width: calc(100% - 10px); color: white; margin-left: 20px;">You Buy</div>
+                    <div
+                        style="height: 30%; width: calc(100% - 20px); display: flex; justify-content: space-between; margin-left: 10px; font-size: 1.3rem; align-items: center;">
+                        <div style="height: 100%; display: flex; align-items: center; color: white; width: 20%;">
+                            <div
+                                style="background-color: rgb(87, 97, 187); width: 50%; height: 65%; display: flex; justify-content: center; align-items: center; border-radius: 8px; margin: 10px;">
+                                <i class="fa-regular fa-circle fa-lg"></i></div>
+                            <div style="display: flex;">LINK <i class="fa-solid fa-caret-down" style="margin-left: 10%;"></i></div>
+                        </div>
+                        <div style="height: 100%; display: flex; align-items: center; color: white; margin-right: 10px; font-size: 2rem;">
+                            6953.2</div>
+                    </div>
+                    <div style="margin-left: 20px; color: rgb(140, 130, 130); display: flex; justify-content: space-between;">
+                        <div>Chain Link</div>
+                        <div style="margin-right: 20px; display: flex;"><p>-$50 542.2</p> <p style="color: rgb(207, 45, 45);">(-0.28%)</p></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
