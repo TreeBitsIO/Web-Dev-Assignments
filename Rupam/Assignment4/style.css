@@ -89,7 +89,7 @@ p{
     cursor: pointer;
 }
 .main{
-    height: 75%;
+    height: calc(100vh - 80px);
     width: 100vw;
     display: flex;
     background-color: rgb(19, 20, 25);

@@ -50,6 +50,17 @@
         flex-direction: column;
         align-items: center;
     }
+    .main-section1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main-sub-section1-1{
+        width: 80%;
+    }
+    .main-section2-sub-1{
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 100px) and (max-width: 430px) {
     .nav {
@@ -105,4 +116,17 @@
         flex-direction: column;
         align-items: center;
     }
+        .main-section1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .main-sub-section1-1 {
+            width: 80%;
+        }
+    
+        .main-section2-sub-1 {
+            width: 100%;
+        }
 }
