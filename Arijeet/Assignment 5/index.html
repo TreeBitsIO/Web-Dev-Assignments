@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Toggle Dark Mode</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            text-align: center;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <h1>JavaScript Toggle Dark Mode</h1>
+        <img id="toggleDark" src="l.png" alt="Toggle Dark Mode" onclick="changeImage()" width="200" height="200">
+    </div>
+    <script>
+        function changeImage() {
+            let displayImage = document.getElementById('toggleDark');
+            if (displayImage.src.match('./d.png')) {
+                displayImage.src = './l.png';
+            } else {
+                displayImage.src = './d.png';
+            }
+        }
+    </script>
+</body>
+</html>
