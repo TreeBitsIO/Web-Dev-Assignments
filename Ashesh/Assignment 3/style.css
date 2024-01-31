@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame{
+    width: 400px;
+    max-width: 350px;
+    padding: 25px 25px 0px 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+    z-index: 9;
+    background: #fff;
+    border: 2px solid #e1e1e1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#banner{
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(78, 149, 210);
+    z-index: -1;
+    top: 0;
+    border-radius: 20px 20px 0% 0px;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(78, 149, 210);
+    padding: 3px;
+}
+
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.heading{
+    font-size: 25px;
+    margin: 15px 0px 0px 0px;
+}
+
+.sub-heading{
+    font-size: 15px;
+    margin: 0px 0px 0px 15px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.socials .link{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(78, 149, 210);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0px 10px;
+    padding: 6px 30px;
+    background-color: rgb(78, 149, 210);
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.5s ease;
+    background-color: gray;
+}
+
+.metric{
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metric i{
+    margin: 30px;
+}
+
+.metric .separator{
+    width: 2px;
+    height: 50%;
+    background-color: gainsboro;
+    border-radius: 2px;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: antiquewhite;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(19,20,25);
+}
+
+/*  <!-- Header beigns here --> */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    background-color: rgb(19,20,25);
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.tabs .tab{
+    height: 100%;
+    width: 25%;
+    letter-spacing: 1.5px;
+}
+
+.button-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.button-header .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    background: none;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+
+.button-header .button i{
+    padding: 0px 10px 0px 10px;
+}
+
+/* <!-- Header ends here --> */
+
+/* <!-- Main beigns here --> */
+
+main{
+    height: 80%;
+    display: flex;
+    padding: 0px 100px 0px 100px;
+}
+
+.chart{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;  
+    /* background-color: aqua; */
+    border: 2px solid black;
+}
+
+.chart .heading{
+    height: 20%;
+    width: 100%;
+}
+
+.chart .heading .coin{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0px 0px 10px 0px;
+}
+
+.chart .heading .price{
+    font-size: 45px;
+    font-weight: 400;
+    color: rgb(255, 210, 152);
+    padding: 0px 0px 10px 0px;
+}
+
+.chart .image img{
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* <!-- Main ends here --> */
+    
+/* <!-- Footer beigns here --> */
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    background-color: rgb(19,20,25);
+}
+
+/* <!-- Footer beigns here --> */
